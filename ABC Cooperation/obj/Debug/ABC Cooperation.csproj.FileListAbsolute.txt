@@ -1,0 +1,12 @@
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.csproj.AssemblyReference.cache
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.csproj.SuggestedBindingRedirects.cache
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC_Cooperation.Properties.Resources.resources
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.csproj.GenerateResource.cache
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.csproj.CoreCompileInputs.cache
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\bin\Debug\ABC Cooperation.exe.config
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\bin\Debug\ABC Cooperation.exe
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\bin\Debug\ABC Cooperation.pdb
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.exe
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC Cooperation.pdb
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC_Cooperation.Forms.Authentication.Registration.Register.resources
+C:\Users\nipun\Desktop\Pet\ABC Cooperation\ABC Cooperation\obj\Debug\ABC_Cooperation.Forms.Authentication.Login.SignIn.resources
