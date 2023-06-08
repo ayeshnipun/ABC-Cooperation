@@ -63,6 +63,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmb_EmployeeNo = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.llb_Exit = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -93,6 +94,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.llb_Exit);
             this.groupBox1.Controls.Add(this.btn_Delete);
             this.groupBox1.Controls.Add(this.btn_Clear);
             this.groupBox1.Controls.Add(this.btn_Update);
@@ -119,6 +121,7 @@
             this.btn_Delete.TabIndex = 16;
             this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Clear
             // 
@@ -140,6 +143,7 @@
             this.btn_Update.TabIndex = 14;
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = false;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // btn_Register
             // 
@@ -150,6 +154,7 @@
             this.btn_Register.TabIndex = 11;
             this.btn_Register.Text = "Register";
             this.btn_Register.UseVisualStyleBackColor = false;
+            this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
             // 
             // groupBox4
             // 
@@ -422,6 +427,7 @@
             this.cmb_EmployeeNo.Name = "cmb_EmployeeNo";
             this.cmb_EmployeeNo.Size = new System.Drawing.Size(216, 33);
             this.cmb_EmployeeNo.TabIndex = 1;
+            this.cmb_EmployeeNo.SelectedIndexChanged += new System.EventHandler(this.cmb_EmployeeNo_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -433,6 +439,18 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Employee No";
             // 
+            // llb_Exit
+            // 
+            this.llb_Exit.AutoSize = true;
+            this.llb_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llb_Exit.Location = new System.Drawing.Point(939, 1165);
+            this.llb_Exit.Name = "llb_Exit";
+            this.llb_Exit.Size = new System.Drawing.Size(44, 25);
+            this.llb_Exit.TabIndex = 3;
+            this.llb_Exit.TabStop = true;
+            this.llb_Exit.Text = "Exit";
+            this.llb_Exit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llb_Exit_LinkClicked);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -443,6 +461,7 @@
             this.Controls.Add(this.llb_Logout);
             this.Name = "Register";
             this.Text = "ABC Cooperation";
+            this.Load += new System.EventHandler(this.Register_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -493,5 +512,6 @@
         private System.Windows.Forms.TextBox txt_EmployeeType;
         private System.Windows.Forms.TextBox txt_Designation;
         private System.Windows.Forms.TextBox txt_DepartmentName;
+        private System.Windows.Forms.LinkLabel llb_Exit;
     }
 }
