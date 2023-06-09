@@ -12,7 +12,7 @@ namespace ABC_Cooperation.Forms.Authentication.Login
             InitializeComponent();
         }
 
-        private SqlConnection con = new SqlConnection(@"Data Source=AYESHN-LT\SQLEXPRESS;Initial Catalog=ems;Integrated Security=True");
+        private SqlConnection con = new SqlConnection(@"Data Source=AYESHN-LT\SQLEXPRESS;Initial Catalog=abc-coop-ems;Integrated Security=True");
 
         private void btn_Login_Click(object sender, EventArgs e)
         {

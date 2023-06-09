@@ -14,7 +14,7 @@ namespace ABC_Cooperation.Forms.Authentication.Registration
             rb_Female.Checked = false;
         }
 
-        private SqlConnection con = new SqlConnection(@"Data Source=AYESHN-LT\SQLEXPRESS;Initial Catalog=ems;Integrated Security=True");
+        private SqlConnection con = new SqlConnection(@"Data Source=AYESHN-LT\SQLEXPRESS;Initial Catalog=abc-coop-ems;Integrated Security=True");
 
         private void llb_Logout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
