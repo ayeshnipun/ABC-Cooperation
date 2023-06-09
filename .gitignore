@@ -1,24 +1,62 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio / Windows specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
 
-/src/Common/CareOpti-Common/obj
-/src/.vs/CareOpti-Backend
-/.vs/CareOpti-Backend-Dotnet/v17
-/.vs
-/src/.vs
-/src/Core/Application/CareOpti-Application/obj
-/src/Core/Domain/CareOpti-Domain/obj
-/src/Infrastructure/Persistance/CareOpti-Persistance/obj
-/src/Infrastructure/Utility/CareOpti-Utility/obj
-/src/Infrastructure/Identity/CareOpti-Identity/obj
-/src/Web/API/CareOpti-API/obj
-/src/Web/ApiFramework/CareOpti-ApiFramework/obj
-/src/API/CareOpti.API/bin/Debug/net6.0
-/src/API/CareOpti.API/obj
-/src/Infrastructure/Persistance/CareOpti-Persistance/bin/Debug/net6.0
-/src/Core/Application/CareOpti-Application/bin
-/src/Core/Domain/CareOpti-Domain/bin
-/src/Infrastructure/Identity/CareOpti-Identity/bin
-/src/Infrastructure/Utility/CareOpti-Utility/bin
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
 
+# NuGet Packages
+*.nupkg
+packages/
+
+# Visual Studio project files
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcproj
+*.dbproj
+*.fsproj
+*.lsproj
+*.wixproj
+*.xproj
+*.xaml.cs
+*.xaml.vb
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Click-Once deployment
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.pubxml.*
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
